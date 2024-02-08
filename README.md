@@ -1,6 +1,6 @@
 # MySQL-courses-easy-medium-hard-
 
-### Recyclable and Low Fat Products
+### 1. Recyclable and Low Fat Products
 
 Table: Products
 
@@ -25,4 +25,4 @@ select product_id from Products
 where low_fats = 'Y' and recyclable = 'Y';  
 #####################################################  
 
-2. 
+### 2. 
