@@ -1,6 +1,6 @@
 # MySQL-courses-easy-medium-hard-
 
-###. Recyclable and Low Fat Products
+### Recyclable and Low Fat Products
 
 Table: Products
 
