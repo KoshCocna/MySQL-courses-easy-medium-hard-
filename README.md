@@ -44,3 +44,18 @@ where length(content) > 15;
 
 select unique_id, name from Employees left join EmployeeUNI on EmployeeUNI.id = Employees.id;
 
+--select unique_id, name from EmployeeUNI right join Employees on EmployeeUNI.id = Employees.id;
+
+### 7. Product Sales Analysis I
+
+![image](https://github.com/KoshCocna/MySQL-courses-easy-medium-hard-/assets/76080450/19b4f27d-8e33-4fe4-8483-f473fae14fd6)
+
+select product_name, year, price from Sales left join Product on Sales.product_id = Product.product_id;
+
+--select product_name, year, price from Product right join Sales on Sales.product_id = Product.product_id;
+
+### 8. Customer Who Visited but Did Not Make Any Transactions
+
+![image](https://github.com/KoshCocna/MySQL-courses-easy-medium-hard-/assets/76080450/a42f4217-4405-4624-af1a-de53186af98b)
+
+
