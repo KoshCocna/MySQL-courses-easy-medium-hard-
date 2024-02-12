@@ -86,3 +86,12 @@ where area >= 3000000 or population >= 25000000;
 
 #####################################################  
 
+### 2. Find Customer Referee  
+
+![image](https://github.com/KoshCocna/MySQL-courses-easy-medium-hard-/assets/76080450/55b4e426-cc90-4246-8800-4bf648b7b161)
+
+select distinct author_id as id from Views  
+where author_id = viewer_id  
+order by id;  
+
+
