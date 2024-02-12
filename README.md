@@ -1,4 +1,4 @@
-# MySQL-courses-easy-medium-hard-
+# MySQL-courses-(LeetCode)
 
 ### 1. Recyclable and Low Fat Products
 
