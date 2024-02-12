@@ -31,4 +31,16 @@ select distinct author_id as id from Views
 where author_id = viewer_id  
 order by id;  
 
+### 5. Invalid Tweets 
+
+![image](https://github.com/KoshCocna/MySQL-courses-easy-medium-hard-/assets/76080450/f1c624a8-4415-4a8c-b839-f823525fa09f)
+
+select tweet_id from Tweets
+where length(content) > 15;
+
+### 6. Replace Employee ID With The Unique Identifier
+
+![image](https://github.com/KoshCocna/MySQL-courses-easy-medium-hard-/assets/76080450/0d4e6e85-327e-4e6d-b851-50b496b5af5b)
+
+select unique_id, name from Employees left join EmployeeUNI on EmployeeUNI.id = Employees.id;
 
