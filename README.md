@@ -58,4 +58,20 @@ select product_name, year, price from Sales left join Product on Sales.product_i
 
 ![image](https://github.com/KoshCocna/MySQL-courses-easy-medium-hard-/assets/76080450/a42f4217-4405-4624-af1a-de53186af98b)
 
+select v.customer_id, count(v.visit_id) as count_no_trans 
+from Visits v 
+left join Transactions t 
+on v.visit_id = t.visit_id  
+where t.transaction_id is null 
+group by v.customer_id; 
+
+### 9. Rising Temperature
+
+![image](https://github.com/KoshCocna/MySQL-courses-easy-medium-hard-/assets/76080450/ddabd775-b60c-4362-8e26-23171b4f53e9)
+
+select w2.id from Weather w1 
+join Weather w2
+on w2.temperature > w1.temperature and 
+datediff(w2.recordDate, w1.recordDate) = 1;
+
 
